@@ -1,0 +1,30 @@
+
+.avatar {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
